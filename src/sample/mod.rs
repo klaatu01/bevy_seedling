@@ -15,8 +15,10 @@ use firewheel::{
 use std::time::Duration;
 
 mod assets;
+pub mod stream;
 
 pub use assets::AudioSample;
+pub use stream::{LiveAudioStream, StreamChannels, StreamSettings, StreamStats};
 
 #[cfg(feature = "symphonia")]
 pub(crate) use assets::loader::SymphoniumLoaderPlugin;

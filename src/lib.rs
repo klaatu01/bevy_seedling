@@ -393,7 +393,8 @@ pub mod prelude {
         sample_effects::{EffectOf, EffectsQuery, SampleEffects},
     };
     pub use crate::sample::{
-        AudioSample, OnComplete, PlaybackSettings, SamplePlayer, SamplePriority,
+        AudioSample, LiveAudioStream, OnComplete, PlaybackSettings, SamplePlayer, SamplePriority,
+        StreamChannels, StreamSettings, StreamStats,
     };
     pub use crate::sample_effects;
     pub use crate::spatial::{
